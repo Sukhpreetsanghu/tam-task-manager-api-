@@ -9,4 +9,5 @@ const userSchema = new
       ["admin","member"], default:"member"}
   });
 module.exports=
+  
   mongoose.model("User",userSchema);
